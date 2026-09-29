@@ -1,0 +1,35 @@
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+secrets/
+credentials/
+tokens/
+cookies/
+
+# Private or generated data
+*.db
+*.sqlite
+*.sqlite3
+*.log
+logs/
+data/private/
+customer-data/
+supplier-data/
+screenshots/private/
+
+# Build and local tooling
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+node_modules/
+dist/
+build/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
